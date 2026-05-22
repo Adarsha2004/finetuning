@@ -1,0 +1,20 @@
+{
+  "fine_tune_type": "lora",
+  "num_layers": 35,
+  "lora_parameters": {
+    "rank": 16,
+    "scale": 2.0,
+    "dropout": 0,
+    "keys": [
+      "down_proj",
+      "embed_tokens",
+      "gate_proj",
+      "k_proj",
+      "lm_head",
+      "o_proj",
+      "q_proj",
+      "up_proj",
+      "v_proj"
+    ]
+  }
+}
